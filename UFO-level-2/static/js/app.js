@@ -8,13 +8,7 @@ data. forEach(function(sightingReport){
 });
 console.log(tableData.length)
   
-  // data.forEach((sightingReport) => {
-  //   var row = tbody.append("tr");
-  //   Object.entries(sightingReport).forEach(([key, value]) => {
-  //     var cell = row.append("td");
-  //     cell.text(value);
-  //   });
-  // });
+
   buildTable(tableData);
 
 var filterKey = {}
